@@ -43,7 +43,9 @@ nav ul li {
   display: flex;
   border-radius: 10px;
   padding: 34px;
-  background-image: url(bg4.png);
+  background-image: url(./Image/BG.jpg);
+  
+ 
 }
 
 /*bottom class*/
