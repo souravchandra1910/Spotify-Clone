@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: black;
+  color: white;
+  height: 70px;
+  /* justify-content: center; */
+  align-items: center;
+}
+nav ul li {
+  padding-right: 40px;
+}
+.brand img {
+  width: 55px;
+  padding: 0 10px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font: size 1.3rem;
+}
+
+.container {
+  min-height: 69.7vh;
+  background-color: black;
+  color: white;
+  font-family: "varela Round", sans-serif;
+  width: 70%;
+  margin: 23px auto;
+  display: flex;
+  border-radius: 10px;
+  padding: 34px;
+  background-image: url(bg4.jpg);
+}
+
+/*bottom class*/
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#myProgressbar {
+  width: 80vw;
+}
+
+/*media query*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .container {
+    min-height: 66.7vh;
+    
+  }
+  .bottom{
+    height: 100px;
+  }
+  
+.container h1 {
+    font-size: 15.7px;
+}
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .container {
+    min-height: 76.7vh;
+  }
+}
