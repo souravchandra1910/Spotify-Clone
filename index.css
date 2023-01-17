@@ -44,8 +44,6 @@ nav ul li {
   border-radius: 10px;
   padding: 34px;
   background-image: url(./Image/BG.jpg);
-  
- 
 }
 
 /*bottom class*/
@@ -62,7 +60,7 @@ nav ul li {
   flex-direction: column;
 }
 .icons {
-  margin-top: 15px;
+  margin-top: 35px;
   cursor: pointer;
 }
 
@@ -70,10 +68,48 @@ nav ul li {
   width: 80vw;
 }
 
+.songItem{
+ height: 45px;
+ display: flex;
+ background-color:white;
+ color: black;
+ margin: 15px 0;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 15px;
+}
+.songItem img{
+  height: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+.timestamp{
+  margin: 0 23px;
+}
+.timestamp i{
+  cursor: pointer;
+}
+
+.songItemsContainer{
+  margin-top: 74px;
+}
+.songInfo{
+  position:absolute;
+  left:5vw;
+}
+.songInfo img{
+ opacity: 0;
+ transition:opacity is ease-in;
+}
+
 /*media query*/
 
 @media screen and (max-device-width: 1024px) {
   .container {
     min-height: 80vh;
+    background-image: url(./Image/media2.jpg);
+  }
+  .container h1{
+    font-size: 15.5px;
   }
 }
