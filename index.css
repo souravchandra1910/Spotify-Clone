@@ -71,21 +71,9 @@ nav ul li {
 }
 
 /*media query*/
-@media only screen and (max-width: 600px) {
-  .container {
-    min-height: 66.7vh;
-  }
-  .bottom{
-    height: 112px;
-  }
-  
-.container h1 {
-    font-size: 15.7px;
-}
-}
 
-@media screen and (min-device-width: 601px) and (max-device-width: 1024px) {
+@media screen and (max-device-width: 1024px) {
   .container {
-    min-height: 90vh;
+    min-height: 80vh;
   }
 }
