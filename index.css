@@ -99,7 +99,7 @@ nav ul li {
 }
 .songInfo img{
  opacity: 0;
- transition:opacity is ease-in;
+ transition:opacity 0.4s ease-in;
 }
 
 /*media query*/
@@ -109,7 +109,13 @@ nav ul li {
     min-height: 80vh;
     background-image: url(./Image/media2.jpg);
   }
+  .SongName{
+    font-size: 9.2px;
+  }
   .container h1{
     font-size: 15.5px;
+  }
+  .timestamp{
+    font-size: 12px;
   }
 }
