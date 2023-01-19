@@ -33,17 +33,17 @@ let songs = [
     coverPath: "./image/c.jpg",
   },
   {
-    songName: "Kaise Hua",
+    songName: "Tera Ban Jayunga",
     filepath: "./songs/6",
     coverPath: "./image/c.jpg",
   },
   {
-    songName: "Tera Ban Jayunga",
+    songName: "Jab Tak",
     filepath: "./songs/7",
     coverPath: "./image/c.jpg",
   },
   {
-    songName: "Jab Tak",
+    songName: "Kaise Hua",
     filepath: "./songs/8",
     coverPath: "./image/c.jpg",
   },
@@ -89,12 +89,9 @@ window.onload = function () {
 const makaAllPlays = () => {
   Array.from(document.getElementsByClassName("songItemPlay")).forEach(
     (element) => {
-      element.addEventListener("click", (e) => {
-        e.target.classList.remove("fa-pause-circle");
-        e.target.classList.add("fa-play-circle");
+        element.classList.remove("fa-pause-circle");
+        element.classList.add("fa-play-circle");
       });
-    }
-  );
 };
 Array.from(document.getElementsByClassName("songItemPlay")).forEach(
   (element) => {
