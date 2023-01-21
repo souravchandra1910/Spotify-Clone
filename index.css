@@ -85,8 +85,8 @@ nav ul li {
   transform: scale(1.05);
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(255, 255, 255, 0.35) 100%
+    rgba(0, 0, 0, 0.073) 0%,
+    rgba(255, 255, 255, 0.87) 100%
   );
 }
 .songItem img {
@@ -111,6 +111,16 @@ nav ul li {
 .songInfo img {
   opacity: 0;
   transition: opacity 0.4s ease-in;
+}
+#about:hover{
+  cursor: pointer;
+  color: rgb(201, 214, 23);
+  transform: scale(1.1);
+}
+#home:hover{
+  cursor: pointer;
+  color: rgb(201, 214, 23);
+  transform: scale(1.1);
 }
 
 /*media query*/

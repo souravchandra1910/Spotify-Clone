@@ -96,6 +96,7 @@ const makaAllPlays = () => {
     (element) => {
       element.classList.remove("fa-pause-circle");
       element.classList.add("fa-play-circle");
+      gif.style.opacity = 0;
     }
   );
 };
@@ -106,6 +107,7 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach(
       songIndex = parseInt(e.target.id);
       e.target.classList.remove("fa-play-circle");
       e.target.classList.add("fa-pause-circle");
+      gif.style.opacity = 1;
       audioElement.src = `songs/${songIndex + 1}.mp3`;
       masterSongName.innerText = songs[songIndex].songName;
       audioElement.currentTime = 0;
@@ -143,3 +145,17 @@ document.getElementById("previous").addEventListener("click", () => {
   masterPlay.classList.remove("fa-play-circle");
   masterPlay.classList.add("fa-pause-circle");
 });
+
+
+
+document.getElementById('about').addEventListener('click',()=>{
+    alert("Hey, this is Sourav😋😋🐻,I made this spofity clone  \n please press ok to continue");
+  });
+
+
+
+
+
+
+
+
