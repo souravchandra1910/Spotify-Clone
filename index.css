@@ -125,7 +125,7 @@ nav ul li {
 
 /*media query*/
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-device-width: 620px) {
   .container {
     min-height: 80vh;
     background-image: url(./Image/media2.jpg);
@@ -139,7 +139,11 @@ nav ul li {
   .timestamp {
     font-size: 12px;
   }
+  .songItem{
+    margin: 15px 0;
+  }
   .songItem:hover {
     transform: scale(1.05);
   }
 }
+
