@@ -57,6 +57,11 @@ let songs = [
     filepath: "./songs/10",
     coverPath: "./image/c.jpg",
   },
+  {
+    songName: "Shauq",
+    filepath: "./songs/11",
+    coverPath: "./image/c.jpg",
+  },
 ];
 
 songItems.forEach((element, i) => {
@@ -119,7 +124,7 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach(
 );
 
 document.getElementById("next").addEventListener("click", () => {
-  if (songIndex >= 9) {
+  if (songIndex >= 10) {
     songIndex = 0;
   } else {
     songIndex += 1;
