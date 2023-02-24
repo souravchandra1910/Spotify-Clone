@@ -10,11 +10,20 @@ body {
 nav {
   font-family: "Ubuntu", sans-serif;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  cursor: pointer;
+  color: yellow;
+}
 nav ul {
   display: flex;
   list-style: none;
   background-color: black;
   color: white;
+  margin-right: -25px;
   height: 70px;
   /* justify-content: center; */
   align-items: center;
