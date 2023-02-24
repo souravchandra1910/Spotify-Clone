@@ -1,6 +1,7 @@
 console.log("Welcome to Spotify!");
 let songIndex = 0;
 let audioElement = new Audio("../songs/1.mp3");
+console.log(audioElement);
 let masterPlay = document.getElementById("masterPlay");
 let myProgressBar = document.getElementById("myProgressbar");
 let gif = document.getElementById("gif");
@@ -113,7 +114,7 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach(
       e.target.classList.remove("fa-play-circle");
       e.target.classList.add("fa-pause-circle");
       gif.style.opacity = 1;
-      audioElement.src = `songs/${songIndex + 1}.mp3`;
+      audioElement.src = `../songs/${songIndex + 1}.mp3`;
       masterSongName.innerText = songs[songIndex].songName;
       audioElement.currentTime = 0;
       audioElement.play();
