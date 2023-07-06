@@ -10,20 +10,11 @@ body {
 nav {
   font-family: "Ubuntu", sans-serif;
 }
-a{
-  text-decoration: none;
-  color: white;
-}
-a:hover{
-  cursor: pointer;
-  color: yellow;
-}
 nav ul {
   display: flex;
   list-style: none;
   background-color: black;
   color: white;
-  margin-right: -25px;
   height: 70px;
   /* justify-content: center; */
   align-items: center;
@@ -52,7 +43,7 @@ nav ul li {
   display: flex;
   border-radius: 10px;
   padding: 34px;
-  background-image: url(../Image/BG.jpg);
+  background-image: url(./Image/BG.jpg);
 }
 
 /*bottom class*/
@@ -62,7 +53,6 @@ nav ul li {
   height: 130px;
   background-color: black;
   bottom: 0;
-  margin: -23px;
   color: white;
   display: flex;
   justify-content: center;
@@ -138,7 +128,7 @@ nav ul li {
 @media screen and (max-device-width: 620px) {
   .container {
     min-height: 80vh;
-    background-image: url(../Image/media2.jpg);
+    background-image: url(./Image/media2.jpg);
   }
   .SongName {
     font-size: 8.53px;
@@ -156,4 +146,3 @@ nav ul li {
     transform: scale(1.05);
   }
 }
-
