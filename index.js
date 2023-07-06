@@ -10,8 +10,8 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
   {
     songName: "Phir Kabhi",
-    filepath: "../songs/1",
-    coverPath: "./image/c.jpg",
+    filepath: "songs/1",
+    coverPath: "image/c.jpg",
   },
   {
     songName: "Dil Ka Pata",
